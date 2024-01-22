@@ -46,3 +46,38 @@ $(".next-menus").bind("click", function(e){
         scrollLeft: "+=" + stepFilter + "px"
     })
 })
+
+//companies that provide the foods
+
+[ 
+    {
+      "name": "Big Square",
+      "foodProvided": "Big Burger",
+       "rating": 3.5
+    },
+    {
+      "name": "Coston Poa",
+      "foodProvided": "Shawarma",
+      "rating": 3.7
+    },
+    {
+      "name": "Roberto",
+      "foodProvided": "Pizza",
+      "rating": 3.2
+    },
+    {
+       "name": "Tarbush",
+       "foodProvided": "Beef Steak",
+        "rating": 3.0
+    },
+    {
+      "name": "Cafe",
+      "foodProvided": "Cafe Latte",
+      "rating": 3.9
+    },
+    {
+      "name": "Quickmart",
+      "foodProvided": "Salad",
+      "rating": 3.6
+    }
+  ]

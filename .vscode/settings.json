@@ -18,6 +18,17 @@
   },
   {
      "name": "Tarbush",
-     "foodProvided": "Beef Steak"
+     "foodProvided": "Beef Steak",
+      "rating": 3.0
+  },
+  {
+    "name": "Cafe",
+    "foodProvided": "Cafe Latte",
+    "rating": 3.9
+  },
+  {
+    "name": "Quickmart",
+    "foodProvided": "Salad",
+    "rating": 3.6
   }
 ]
