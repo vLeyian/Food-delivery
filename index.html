@@ -39,7 +39,8 @@
       <!-- main navbar -->
       <div class="main-navbar">
         <!-- menu when appear on mobile version -->
-        <i class="fa-solid"></i>
+        <a class="menu-toggle"><i class="fa-solid fa-bars"></i></a>
+        <!-- search bar-->
         <div class="search">
           <input type="text" placeholder="What you want to eat?" />
           <button class="search-btn">Search</button>
@@ -50,10 +51,179 @@
           <a class="user" href="#"><i class="fa-regular fa-user"></i></a>
         </div>
       </div>
-      <!-- main menus / order-->
+      <!-- main highlight -->
+      <div class="main-highlight">
+        <!-- title section and arrow -->
+        <div class="main-header">
+          <h2 class="main-title">Recommendations</h2>
+          <div class="main-arrow">
+            <a class="back"><i class="fa-solid fa-circle-arrow-left"></i></a>
+            <a class="next"><i class="fa-solid fa-circle-arrow-right"></i></a>
+          </div>
+        </div>
+        <!-- highlight menu -->
+        <div class="highlight-wrapper">
+          <div class="highlight-card">
+            <img class="highlight-img" src="images/salad.jpg" />
+            <div class="highlight-desc">
+              <h4>Fresh Salad</h4>
+              <p>250 Ksh</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <img class="highlight-img" src="images/coffee.jpg" />
+            <div class="highlight-desc">
+              <h4>Cafe Latte</h4>
+              <p>100 Ksh</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <img class="highlight-img" src="/images/steak.jpg" />
+            <div class="highlight-desc">
+              <h4>Steak</h4>
+              <p>490 ksh</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <img class="highlight-img" src="images/burger.jpg" />
+            <div class="highlight-desc">
+              <h4>Big Burger</h4>
+              <p>320 Ksh</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- main menus / order -->
       <div class="main-menus">
-        <!-- filter section-->
+        <!-- filter section -->
+        <div class="main-filter">
+          <div>
+            <h2 class="main-title">Menu <br />Category</h2>
+            <div class="main-arrow">
+              <i class="fa-solid fa-circle-arrow-left"></i>
+              <i class="fa-solid fa-circle-arrow-right"></i>
+            </div>
+          </div>
+          <div class="filter-wrapper">
+            <div class="filter-card">
+              <div class="filter-icon">
+                <i class="fa-solid fa-bowl-food"></i>
+              </div>
+              <p>All Menus</p>
+            </div>
+            <div class="filter-card">
+              <div class="filter-icon">
+                <i class="fa-solid fa-burger"></i>
+              </div>
+              <p>Burger</p>
+            </div>
+            <div class="filter-card">
+              <div class="filter-icon">
+                <i class="fa-solid fa-pizza-slice"></i>
+              </div>
+              <p>Pizza</p>
+            </div>
+            <div class="filter-card">
+              <div class="filter-icon">
+                <i class="fa-solid fa-wine-glass-empty"></i>
+              </div>
+              <p>Wine</p>
+            </div>
+            <div class="filter-card">
+              <div class="filter-icon">
+                <i class="fa-solid fa-ice-cream"></i>
+              </div>
+              <p>Ice Cream</p>
+            </div>
+            <div class="filter-card">
+              <div class="filter-icon">
+                <i class="fa-solid fa-mug-hot"></i>
+              </div>
+              <p>Coffee</p>
+            </div>
+            <div class="filter-card">
+              <div class="filter-icon">
+                <i class="fa-solid fa-fish"></i>
+              </div>
+              <p>Seafood</p>
+            </div>
+            <div class="filter-card">
+              <div class="filter-icon">
+                <i class="fa-solid fa-carrot"></i>
+              </div>
+              <p>Healthy</p>
+            </div>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- list of food menus-->
+        <div class="main-detail">
+          <h2 class="main-title">Choose Order</h2>
+          <div class="detail-wrapper">
+            <div class="detail-card">
+              <img class="detail-img" src="/images/shawarma.jpg" />
+              <div class="detail-desc">
+                <div class="detail-name">
+                  <h4>Shawarma</h4>
+                  <p class="price">250 Ksh</p>
+                </div>
+                <i class="fa-solid fa-bookmark"></i>
+              </div>
+            </div>
+            <div class="detail-card">
+              <img class="detail-img" src="/images/fries.jpg" />
+              <div class="detail-desc">
+                <div class="detail-name">
+                  <h4>French Fries</h4>
+                  <p class="price">170 Ksh</p>
+                </div>
+                <i class="fa-solid fa-bookmark"></i>
+              </div>
+            </div>
+            <div class="detail-card">
+              <img class="detail-img" src="/images/pizza.jpg" />
+              <div class="detail-desc">
+                <div class="detail-name">
+                  <h4>Pizza</h4>
+                  <p class="price">900 ksh</p>
+                </div>
+                <i class="fa-solid fa-bookmark"></i>
+              </div>
+            </div>
+            <div class="detail-card">
+              <img class="detail-img" src="/images/salad.jpg" />
+              <div class="detail-desc">
+                <div class="detail-name">
+                  <h4>Salad</h4>
+                  <p class="price">120 Ksh</p>
+                </div>
+                <i class="fa-solid fa-bookmark"></i>
+              </div>
+            </div>
+            <div class="detail-card">
+              <img class="detail-img" src="/images/steak.jpg" />
+              <div class="detail-desc">
+                <div class="detail-name">
+                  <h4>Beef steak</h4>
+                  <p class="price">460 ksh</p>
+                </div>
+                <i class="fa-solid fa-bookmark"></i>
+              </div>
+            </div>
+            <div class="detail-card">
+              <img class="detail-img" src="/images/coffee.jpg" />
+              <div class="detail-desc">
+                <div class="detail-name">
+                  <h4>Coffee</h4>
+                  <p class="price">120 ksh</p>
+                </div>
+                <i class="fa-solid fa-bookmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
+  <script src="app.js"></script>
 </html>
