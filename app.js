@@ -20,7 +20,7 @@ var stepfilter = 60;
 var scrolling = true;
 
 $(".back").bind("click", function(e){
-    e.prevenetDefault();
+    e.preventDefault();
     $(".highlight-wrapper").animate({
         scrollLeft: "-=" + step + "px"
     });
@@ -34,18 +34,19 @@ $(".next").bind("click", function(e){
 }) 
 
 $(".back-menus").bind("click", function(e){
-    e.prevenetDefault();
+    e.preventDefault();
     $(".filter-wrapper").animate({
         scrollLeft: "-=" + stepFilter + "px"
     })
 })
 
 $(".next-menus").bind("click", function(e){
-    e.prevenetDefault();
+    e.preventDefault();
     $(".filter-wrapper").animate({
         scrollLeft: "+=" + stepFilter + "px"
     })
 })
+
 
 //companies that provide the foods
 
