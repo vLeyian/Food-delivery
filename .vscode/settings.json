@@ -1,3 +1,23 @@
-{
-  "liveServer.settings.port": 5501
-}
+//companies that provide the foods
+
+[ 
+  {
+    "name": "Big Square",
+    "foodProvided": "Big Burger",
+     "rating": 3.5
+  },
+  {
+    "name": "Coston Poa",
+    "foodProvided": "Shawarma",
+    "rating": 3.7
+  },
+  {
+    "name": "Roberto",
+    "foodProvided": "Pizza",
+    "rating": 3.2
+  },
+  {
+     "name": "Tarbush",
+     "foodProvided": "Beef Steak"
+  }
+]
