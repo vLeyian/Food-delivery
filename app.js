@@ -82,3 +82,22 @@ $(".next-menus").bind("click", function(e){
       "rating": 3.6
     }
   ]
+
+  const fetchData = async () => {
+    try {
+        const response = await fetch('https://api.example.com/data'); // Replace with your API endpoint
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        
+        const data = await response.json();
+        console.log('Data from the API:', data);
+
+        // Further processing or updating the UI can be done here
+    } catch (error) {
+        console.error('Error fetching data:', error.message);
+    }
+};
+
+// Call the fetchData function when your page loads or when you need to fetch data
+fetchData();
